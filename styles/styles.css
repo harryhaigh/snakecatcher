@@ -1,0 +1,92 @@
+*{
+    box-sizing: 0;
+}
+
+body{    
+    background-image: linear-gradient(to top, #58151A, #BC2909, #BA6D09, #71A8EE, #3072EB, #1552C6, #0542A8);
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;    
+    transition: background-image 2.5s ease-in-out;
+}
+
+main{    
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.time-block{
+    min-height: 100vh;    
+    position: relative;
+}
+
+#main-content{
+    align-items: center;
+    display: flex;    
+    height: 100%;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 14rem;
+}
+
+
+
+/* Background colors */
+body.six-am{
+    background: linear-gradient(to bottom, #4a4969 0%,#7072ab 50%,#cd82a0 100%);
+    background-attachment: fixed;
+}
+body.nine-am{
+    background: linear-gradient(to bottom, #94c5f8 1%,#a6e6ff 70%,#b1b5ea 100%);
+    background-attachment: fixed;
+}
+body.twelve-pm{
+    background: linear-gradient(to bottom, #9be2fe 0%,#67d1fb 100%);
+    background-attachment: fixed;
+}
+body.three-pm{
+    background: linear-gradient(to bottom, #57c1eb 0%,#246fa8 100%);
+    background-attachment: fixed;
+}
+body.six-pm{
+    background: linear-gradient(to bottom, #154277 0%,#576e71 30%,#e1c45e 70%,#b26339 100%);
+    background-attachment: fixed;
+}
+body.nine-pm{
+    background: linear-gradient(to bottom, #00000c 80%,#150800 100%);
+    background-attachment: fixed;
+}
+body.nine-pm h1{
+    color: #fff;
+}
+body.twelve-am{
+    background: #00000c; 
+    background-attachment: fixed;
+}
+body.twelve-am h1{
+    color: #fff;
+}
+body.three-am{
+    background: linear-gradient(to bottom, #020111 10%,#3a3a52 100%);
+    background-attachment: fixed;
+}
+body.three-am h1{
+    color: #fff;
+}
+
+
+
+
+
+
