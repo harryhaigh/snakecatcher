@@ -28,16 +28,41 @@ main{
     align-items: center;
     display: flex;    
     height: 100%;
+    flex-flow: column nowrap;
     justify-content: center;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
 }
-
 h1{
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 14rem;
+    font-size: 4rem;
+    display: block;
+    margin: 0;
+}
+h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 9rem;
+    margin: 0;
+}
+
+@media only screen and (min-width: 500px) {
+    h1{
+        font-size: 5rem;
+    }
+    h2{
+        font-size: 10rem;
+    }
+}
+
+@media only screen and (min-width: 730px) {
+    h1{
+        font-size: 8rem;
+    }
+    h2{
+        font-size: 14rem;
+    }
 }
 
 
@@ -64,24 +89,24 @@ body.six-pm{
     background-attachment: fixed;
 }
 body.nine-pm{
-    background: linear-gradient(to bottom, #00000c 80%,#150800 100%);
+    background: linear-gradient(to bottom, #090401 50%,#4B1D06 100%); 
     background-attachment: fixed;
 }
-body.nine-pm h1{
+body.nine-pm{
     color: #fff;
 }
 body.twelve-am{
     background: #00000c; 
     background-attachment: fixed;
 }
-body.twelve-am h1{
+body.twelve-am {
     color: #fff;
 }
 body.three-am{
     background: linear-gradient(to bottom, #020111 10%,#3a3a52 100%);
     background-attachment: fixed;
 }
-body.three-am h1{
+body.three-am {
     color: #fff;
 }
 
